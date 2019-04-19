@@ -1,0 +1,26 @@
+/* ===================================
+    Different Font Style
+====================================== */
+
+/*
+    Theme Name: Wexim
+    Theme URI:
+    Author: Themes Industry
+    Author URI:
+    Description: One Page Parallax Template
+    Tags: one page, multipurpose, parallax, creative, html5
+
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Hind|Pacifico');
+
+
+.main-font{ font-family:'Hind', sans-serif;}
+.alt-font{ font-family:'Pacifico', cursive;}
+
+body { font-family:'Hind', sans-serif; }
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family:'Pacifico', cursive;}

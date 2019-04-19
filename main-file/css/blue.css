@@ -1,0 +1,122 @@
+/* ===================================
+    About
+====================================== */
+/*
+    Theme Name: Wexim
+    Theme URI:
+    Author: Themes Industry
+    Author URI:
+    Description: One Page Parallax Template
+    Tags: one page, multipurpose, parallax, creative, html5
+
+ */
+/* ===================================
+    Variables
+====================================== */
+/* ===================================
+    Styling
+====================================== */
+::-webkit-scrollbar {
+  background-color: #00abc9;
+}
+::-webkit-scrollbar-thumb {
+  background: #00abc9;
+}
+a:hover,
+a:active {
+  color: #00abc9;
+}
+.gradient-bg1,
+.team-progress .progress-bar,
+.team-box .overlay:before,
+.cube-portfolio1 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap,
+.overlay-two:before,
+.price-two.hvr-gradient:hover,
+.loader {
+  background: #00abc9;
+  background: -moz-linear-gradient(left, #00abc9 2%, #00e4ce 82%);
+  background: -webkit-linear-gradient(left, #00abc9 2%, #00e4ce 82%);
+  background: linear-gradient(to right, #00abc9 2%, #00e4ce 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorPrimary', endColorstr='@colorSecondary', GradientType=1);
+}
+.header-appear .navbar-top-default.navbar-gradient {
+  background: #00abc9;
+  background: -moz-linear-gradient(left, #00e4ce 2%, #00abc9 82%);
+  background: -webkit-linear-gradient(left, #00e4ce 2%, #00abc9 82%);
+  background: linear-gradient(to right, #00e4ce 2%, #00abc9 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorPrimary', endColorstr='@colorPrimary', GradientType=1);
+}
+/* text-color */
+.main-color,
+.cube-portfolio1 .cbp-l-filters-button .cbp-filter-item:hover {
+  color: #00abc9;
+}
+.alt-color {
+  color: #00e4ce;
+}
+.third-color,
+.header-appear .nav-box-round .navbar-nav .nav-link:hover,
+.navbar.navbar-right .navbar-nav .nav-link.active,
+.button-play:hover i,
+.parallax-box:hover i {
+  color: #48459f;
+}
+.gradient-text1,
+.cube-portfolio1 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active,
+.blog-item-content h4 a:hover {
+  background: #00abc9;
+  background: -moz-linear-gradient(left, #00abc9 2%, #00e4ce 82%);
+  background: -webkit-linear-gradient(left, #00abc9 2%, #00e4ce 82%);
+  background: linear-gradient(to right, #00abc9 2%, #00e4ce 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorPrimary', endColorstr='@colorSecondary', GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn.btn-blue,
+.side-right-social a,
+.price-item .btn.btn-black:hover,
+.price-item .btn.btn-black:focus {
+  background: #48459f;
+  border-color: #48459f;
+}
+.btn.btn-blue:hover,
+.btn.btn-blue:focus {
+  background: transparent !important;
+  border-color: #48459f;
+  color: #48459f !important;
+}
+.btn.btn-gradient,
+.team-box-two .team-two-block::before,
+.scroll-top-arrow,
+.widget .search-btn {
+  background-image: linear-gradient(to right, #00abc9 0%, #00e4ce 51%, #00abc9 100%);
+}
+.header-appear .nav-box-round .navbar-nav .nav-link.active,
+.owl-dots .owl-dot::after,
+.footer-social li a:hover {
+  background-color: #48459f;
+}
+.nav-line .navbar-nav .nav-link:before,
+.button-play,
+.price-two.hvr-blue:hover,
+.side-menu,
+.error-text h2,
+.blog-pagination li a:hover,
+.blog-pagination li.active a,
+.blog-pagination li a:focus,
+.wexim .tp-bullet.selected .tp-bullet-inner {
+  background: #48459f;
+}
+.count-down-form .form-control:focus {
+  border-bottom: 2px solid #48459f !important;
+}
+.blog-tags li a:hover,
+.blog-tags li a:focus {
+  border: 1px solid #48459f;
+  background-color: #48459f;
+}
+.price-item .btn.btn-black:hover,
+.price-item .btn.btn-black:focus {
+  background: #48459f !important;
+  border-color: #48459f;
+}
