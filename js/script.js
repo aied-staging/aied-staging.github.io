@@ -390,6 +390,23 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-curricula").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#team-three-slider").owlCarousel({
         items: 4,
         dots: false,
