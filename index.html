@@ -264,7 +264,6 @@
                          style="z-index: 9; letter-spacing: .5px;"><a class="btn btn-large btn-rounded btn-white" href="#about">Learn More</a></div>
 
                 </li>
-
             </ul>
 
     </div>
@@ -414,15 +413,16 @@
 
                 <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
                 <span class="text-blue">/</span>
-                <div data-filter=".graphic" class="cbp-filter-item">K-12 AI Education</div>
+                <div data-filter=".k12" class="cbp-filter-item">K-12 AI Education</div>
                 <span class="text-blue"> / </span>
-                <div data-filter=".vocational" class="cbp-filter-item">AI Career Pathway</div>
+                <div data-filter=".career" class="cbp-filter-item">AI Career Pathway</div>
                 <span class="text-blue"> / </span>
-                <div data-filter=".cat3" class="cbp-filter-item">AI for Special Needs</div>
+                <div data-filter=".needs" class="cbp-filter-item">AI for Special Needs</div>
                 <span class="text-blue"> / </span>
-                <div data-filter=".cat4" class="cbp-filter-item">Learning Skills in the Era of AI</div>
+                <div data-filter=".skills" class="cbp-filter-item">Learning Skills in the Era of AI</div>
 
             </div>
+
 
             <!--Team-->
             <div class="row">
@@ -437,7 +437,7 @@
                                 <li>
                                     <!--Team Image-->
                                     <div class="team-image">
-                                        <img src="images/k12ed_small.png" alt="image">
+                                        <img src="images/k12.png" alt="image">
                                     </div>
                                 </li>
                                 <li>
@@ -545,19 +545,7 @@
 <!--Portfolio Start-->
 <!-- <section id="portfolio" class="cube-portfolio1">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 wow fadeInLeft">
-                <div class="title">
-                    <h6 class="third-color mb-3">AI education projects conducted at MIT</h6>
-                    <h2>Research</h2>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4 wow fadeInRight">
-                <p>Some text about what kind of stuff is being done. Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. 
-               <br><br>
-                Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
-            </div>
-        </div>
+        
 
         <div class="row wow fadeInUp">
             <div class="col-md-12">
@@ -714,7 +702,7 @@
         </div>
 
     </div>
-</section> -->
+</section>
 <!--Portfolio end-->
 
 
@@ -731,6 +719,20 @@
                 </div>
             </div>
         </div>
+
+
+        <!--Portfolio Filters-->
+            <div id="js-filters-mosaic-flat" class="cbp-l-filters-button text-center">
+
+                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                <span class="text-blue">/</span>
+                <div data-filter=".k12" class="cbp-filter-item">Faculty & Staff</div>
+                <span class="text-blue"> / </span>
+                <div data-filter=".career" class="cbp-filter-item">Students</div>
+                <span class="text-blue">  </span>
+            
+
+            </div>
 
         <!--Team-->
         <div class="row">
@@ -1429,7 +1431,7 @@
             <div class="col-md-12 text-center wow fadeIn">
                 <div class="title d-inline-block">
                     <h6 class="mb-3">Open Source Resources To Get Started with K12 AI Education Today</h6>
-                    <h2 class="gradient-text1 mb-3">Teaching Resources</h2>
+                    <h2 class="gradient-text1 mb-3"> Resources</h2>
                     <p>We have collected a set of websites, projects, and applications that allow children to get started learning about artificial intelligence and related skills.  with artificial intelligence tools today. These were developed by members of our team, our collaboartors, and others who are intersted in developing experiences that expose children to artificial intelligence. </p>
                 </div>
             </div>
@@ -1441,12 +1443,24 @@
 
                 <!--resource item-->
                 <div class="price-item item text-left">
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Snap! AI</h4>
+                    <div class="team-image">
+                        <img src="images/snap_med.jpg" alt="image">
+                    </div>
+
+                    <p> <br> <br> Ken Kahn developed a set of extensions to the Snap! programming language to enable children (and non-expert programmers) to build AI programs. <br><br></p>
+                    
+                    <a href="https://ecraft2learn.github.io/ai/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
+                </div>
+
+                <!--resource item-->
+                <div class="price-item item text-left">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Teachable Machine</h4>
                     <div class="team-image">
                         <img src="images/teachablem.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Teachable machines is a browser-based platform where you can train an image recognition algorithm. <br><br></p>
+                    <p> <br> <br> Teachable machines is a browser-based platform by Google, where you can train classifiers for your own image recognition algorithm. <br><br></p>
                     
                     <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -1550,20 +1564,11 @@
             </div>
             
              <!--resource item-->
-                <div class="price-item item text-left">
-                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Snap! AI</h4>
-                    <div class="team-image">
-                        <img src="images/snap_med.jpg" alt="image">
-                    </div>
-
-                    <p> <br> <br> Ken Kahn developed a set of extensions to the Snap! programming language to enable children (and non-expert programmers) to build AI programs. <br><br></p>
-                    
-                    <a href="https://ecraft2learn.github.io/ai/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
-                </div>
+                
             </div>
         </div>
-
-        <div class = "text-center"><p> Scroll right >> </p></div>
+        <br>
+        <div class = "text-center"><p><a href = "javascript:void(0);"> <b>See all projects</b> </a></p></div>
 
 </section>
 
@@ -1578,7 +1583,7 @@
                 <div class="title d-inline-block">
                     <h6 class="mb-3">Open source resources to download</h6>
                     <h2 class="gradient-text1 mb-3">Curricula</h2>
-                    <p>Description. Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                    <p>Artificial Intelligence Curricula available for download. Click on the currciula to learn more. </p>
                 </div>
             </div>
         </div>
@@ -1589,38 +1594,38 @@
 
                 <!--resource item-->
                 <div class="price-item item text-left">
-                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Iridescent AI Family Challenge</h4>
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Iridescent AI</h4>
                     <div class="team-image">
-                        <img src="images/teachablem.jpg" alt="image">
+                        <img src="images/cur-iridescent.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Teachable machines is... <br><br></p>
+                    <p> <br> <br> Iridescent AI Family Challenge is... <br><br></p>
                     
-                    <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
+                    <a href="https://www.curiositymachine.org/aichallenge/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
                 
                 <!--resource item-->
                 <div class="price-item item text-left">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Nvidia DIGITS</h4>
                     <div class="team-image">
-                        <img src="images/logo-scratch.png" alt="image">
+                        <img src="images/cur-nvidia.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Scratch is... <br><br></p>
+                    <p> <br> <br> Nvidia DIGITS is... <br><br></p>
                     
-                    <a href="https://scratch.mit.edu/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
+                    <a href="https://docs.nvidia.com/deeplearning/digits/digits-installation/index.html" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
                 <!--resource item-->
                 <div class="price-item item text-left">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Calypso for Cozmo</h4>
                     <div class="team-image">
-                        <img src="images/teachablem.jpg" alt="image">
+                        <img src="images/cur-calypso.png" alt="image">
                     </div>
 
-                    <p> <br> <br> App inventor is... <br><br></p>
+                    <p> <br> <br> Calypso is... <br><br></p>
                     
-                    <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
+                    <a href="https://calypso.software/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
 
@@ -1631,7 +1636,7 @@
                         <img src="images/teachablem.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> App inventor is... <br><br></p>
+                    <p> <br> <br> Apps for good is... <br><br></p>
                     
                     <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -1643,17 +1648,31 @@
                         <img src="images/teachablem.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> App inventor is... <br><br></p>
+                    <p> <br> <br> AI in a box is... <br><br></p>
                     
                     <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
+
+
+                <!--resource item-->
+                <div class="price-item item text-left">
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">ML for Kids UK</h4>
+                    <div class="team-image">
+                        <img src="images/teachablem.jpg" alt="image">
+                    </div>
+
+                    <p> <br> <br> ML for Kids UK is... <br><br></p>
+                    
+                    <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
+                </div>
+
 
                
 
             </div>
         </div>
 
-        <div class = "text-center"><p> Scroll right >> </p></div>
+        <div class = "text-center"><p><a href = "javascript:void(0);"> <b>See all curricula</b> </a></p></div>
 
 </section>
 
@@ -1879,7 +1898,7 @@
                         <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                <p class="company-about fadeIn">© 2019 copyright info</a></p>
+                <p class="company-about fadeIn">© 2019 copyright MIT. &nbsp;&nbsp;&nbsp; <a href = "javascript:void(0);">Terms of service</a>     <a href = "javascript:void(0);">&nbsp;&nbsp;&nbsp;Privacy Policy</a>&nbsp;&nbsp;&nbsp; <a href = "https://getbootstrap.com/">Powered by Bootstrap</a></p>
             </div>
         </div>
     </div>
