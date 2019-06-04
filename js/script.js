@@ -390,6 +390,40 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-2").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
+    $("#price-slider-3").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#price-slider-curricula").owlCarousel({
         items: 3,
         dots: false,
