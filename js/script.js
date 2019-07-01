@@ -694,7 +694,6 @@ jQuery(function ($) {
         },
     });
 
-
     /* ------ CubePortfolio ------ */
 
     $("#portfolio-measonry").cubeportfolio({
