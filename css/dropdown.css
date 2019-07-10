@@ -1,0 +1,2 @@
+#module{}#module a.collapsed:after  {display: block;content: '+ Show More';overflow: hidden;} #module a:not(.collapsed):after {content: '- Show Less';}
+

@@ -390,6 +390,57 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-1").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
+    $("#price-slider-2").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
+    $("#price-slider-3").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#price-slider-curricula").owlCarousel({
         items: 3,
         dots: false,
@@ -407,7 +458,58 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-curricula-1").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
+    $("#price-slider-curricula-2").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#team-three-slider").owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+    
+    $("#team-three-slider-2").owlCarousel({
         items: 4,
         dots: false,
         nav: false,
@@ -591,7 +693,6 @@ jQuery(function ($) {
             }
         },
     });
-
 
     /* ------ CubePortfolio ------ */
 
