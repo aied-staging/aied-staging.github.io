@@ -163,15 +163,33 @@
     </div>
 </section>
 <!--Cover End-->
+       
+
 
 <!--Page Content-->
 <section>
+
     <div class="container">
         <div class="row">
+<!-- filter buttons -->
+
+
+
+
+
             <!--left side-->
             <div class="col-lg-8 mb-xs-5">
                  <!--item-->
-                <div class="blog-list-item">
+                 <div id="myBtnContainer" class="cbp-l-filters-button">
+                    <button class="cbp-filter-item active" onclick="filterSelection('all')"> Show all</button> / </span>
+                    <button class="cbp-filter-item" onclick="filterSelection('aied')"> AI Education</button> / </span>
+                    <button class="cbp-filter-item" onclick="filterSelection('comp')"> Computational Thinking</button> / </span>
+                    <button class="cbp-filter-item" onclick="filterSelection('ethics')"> Ethics</button> / </span>
+                     <button class="cbp-filter-item" onclick="filterSelection('relation')"> Relationships with AI</button> / </span>
+                    <button class="cbp-filter-item" onclick="filterSelection('robot')"> Robots</button>
+                </div>
+
+                <div class="blog-list-item" type="aied ethics">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -188,7 +206,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="comp">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -205,7 +223,7 @@
                     </div>
                 </div>
                  <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied ethics">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -222,7 +240,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -239,7 +257,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied ethics">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -259,7 +277,7 @@
                 </div>
 
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -276,7 +294,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied ethics">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -294,7 +312,7 @@
                 </div>
 
                  <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -313,7 +331,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="comp">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -335,7 +353,7 @@
                 
                 
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="aied ethics">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -352,7 +370,7 @@
                     </div>
                 </div>
    <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="relation">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -370,7 +388,7 @@
                 </div>
 
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="relation">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -389,7 +407,7 @@
                     </div>
                 </div>
                 <!--item-->
-                 <div class="blog-list-item">
+                 <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -407,7 +425,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="relation">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -425,7 +443,7 @@
                     </div>
                 </div>
                 <!--item-->
-                <div class="blog-list-item">
+                <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -443,7 +461,7 @@
                     </div>
                 </div>
                     <!--item-->
-                    <div class="blog-list-item">
+                    <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -461,7 +479,7 @@
                     </div>
                 </div>
                     <!--item-->
-                    <div class="blog-list-item">
+                    <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -479,7 +497,7 @@
                     </div>
                 </div>
                  <!--item-->
-                    <div class="blog-list-item">
+                    <div class="blog-list-item" type="comp">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -498,7 +516,7 @@
                 </div>
                 
                     <!--item-->
-                    <div class="blog-list-item">
+                    <div class="blog-list-item" type="comp"> 
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -516,7 +534,7 @@
                     </div>
                 </div>
                     <!--item-->
-                    <div class="blog-list-item">
+                    <div class="blog-list-item" type="robot">
                     <!--blog image-->
                     <a href="blog-detail.html">
                         <div class="blog-item-img mb-5 hover-effect">
@@ -553,8 +571,8 @@
                     <a href="#." class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </div>
                 <!--recent post-->
-                <div class="widget bg-light">
-                    <h5 class="mb-4">Recent Post</h5>
+              <div class="widget bg-light">
+                    <h5 class="mb-4">Recent Posts</h5>
                     <!--recent post item-->
                     <div class="recent-post d-flex">
                         <img src="images/wgbh.png" alt="image">
@@ -580,7 +598,7 @@
                         </div>
                     </div>
                     <!--recent post item-->
-                    <div class="recent-post d-flex">
+                   <div class="recent-post d-flex">
                         <img src="images/teachKidsAI.png" alt="image">
                         <div class="text alt-font">
                             <a href=https://www.wsj.com/articles/how-to-teach-kids-about-ai-11557759541>How to Teach Kids About AI</a>
@@ -590,10 +608,10 @@
                 
                 </div>
                 <!--category-->
-                <div class="widget bg-light">
-                    <h5 class="mb-4">Category</h5>
+                <!--<div class="widget bg-light">
+                    <h5 class="mb-4">Category</h5>-->
                     <!--list-->
-                    <ul class="list-unstyled blog-category m-0 alt-font">
+                    <!--<ul class="list-unstyled blog-category m-0 alt-font">
                         <li><a href="#.">Corporate <span class="float-right">113</span></a></li>
                         <li><a href="#.">Creative <span class="float-right">87</span></a></li>
                         <li><a href="#.">Finance <span class="float-right">66</span></a></li>
@@ -601,12 +619,12 @@
                         <li><a href="#.">Onepage <span class="float-right">47</span></a></li>
                         <li><a href="#.">Single Post <span class="float-right">76</span></a></li>
                     </ul>
-                </div>
+                </div>-->
                 <!--tags-->
-                <div class="widget bg-light">
-                    <h5 class="mb-4">Tags</h5>
+                <!--<div class="widget bg-light">
+                    <h5 class="mb-4">Tags</h5>-->
                     <!--list-->
-                    <ul class="list-unstyled blog-tags m-0">
+                    <!--<ul class="list-unstyled blog-tags m-0">
                         <li><a href="#.">Corporate</a></li>
                         <li><a href="#.">Creative</a></li>
                         <li><a href="#.">Finance</a></li>
@@ -617,18 +635,18 @@
                         <li><a href="#.">Developer</a></li>
                         <li><a href="#.">Classic</a></li>
                     </ul>
-                </div>
+                </div>-->
                 <!--category-->
-                <div class="widget bg-light">
-                    <h5 class="mb-4">Archive</h5>
+                <!--<div class="widget bg-light">
+                    <h5 class="mb-4">Archive</h5>-->
                     <!--list-->
-                    <ul class="list-unstyled blog-category m-0 alt-font">
+                    <!--<ul class="list-unstyled blog-category m-0 alt-font">
                         <li><a href="#.">Corporate <span class="float-right">15</span></a></li>
                         <li><a href="#.">Creative <span class="float-right">18</span></a></li>
                         <li><a href="#.">Onepage <span class="float-right">11</span></a></li>
                         <li><a href="#.">Single Post <span class="float-right">13</span></a></li>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

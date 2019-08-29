@@ -1577,6 +1577,17 @@ header .center-logo a.logo img {max-width: 130px;}
     -webkit-text-fill-color: transparent;
 }
 
+.cbp-filter-item.active{
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .cube-portfolio1 .cbp-l-filters-button .cbp-filter-item:hover{
     color : #3264f5;
 }
@@ -1935,7 +1946,6 @@ ul.packages li i.fa-times{
     color: #ffffff !important;
     background: transparent;
 }
-
 
     /* ===================================
        Content
@@ -2852,10 +2862,15 @@ ul.count_down.white li p:nth-child(2) {
 
 .blog-list-item{
     margin-bottom: 4rem;
+    display: none;
 }
 
 .blog-list-item:last-child{
     margin-bottom: 1rem;
+}
+
+.blog-list-item-show{
+    display: block;
 }
 
 .blog-pagination li{
@@ -3126,6 +3141,7 @@ ul.count_down.white li p:nth-child(2) {
 }
 
 .blog-item-content h4 a:hover{
+
     background: #3264f5;
     background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
     background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
