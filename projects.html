@@ -83,7 +83,7 @@
                         <a class="nav-link link" href="index.html#about">About</a>
                         <a class="nav-link link " href="index.html#team">People</a>
                         <a class="nav-link link" href="projects.html">Research</a>
-                        <a class="nav-link link " href="curricula.html">Curricula</a>
+                        <a class="nav-link link " href="index.html#portfolio">Curricula</a>
                         <a class="nav-link link " href="resources.html">Resources</a>
                         <a class="nav-link link" href="blog-left.html">News</a>
                     <span class="menu-line"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -111,21 +111,21 @@
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link link scroll" href="#home">Home</a>
+                        <a class="nav-link link scroll" href="index.html#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link scroll" href="#about">About</a>
+                        <a class="nav-link link scroll" href="#index.html#about">About</a>
                     </li>
                                         <li class="nav-item">
-                        <a class="nav-link link scroll" href="#team">People</a>
+                        <a class="nav-link link scroll" href="index.html#team">People</a>
                     </li>
-                    <li class="nav-item">
+                     <li class="nav-item">
                         <a class="nav-link link scroll" href="projects.html">Research</a>
                     </li>
 
                     
                 <li class="nav-item">
-                        <a class="nav-link link " href="curricula.html">Curricula</a>
+                        <a class="nav-link link " href="index.html#portfolio">Curricula</a>
                     </li>
 
                     <li class="nav-item">
@@ -180,12 +180,18 @@
 
         <!--Team-->
         <div class="row">
-
+            <div id="myBtnContainer" class="cbp-l-filters-button">
+                    <button class="cbp-filter-item active" onclick="researchSelection('all')"> Show all</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('k2')">K-2</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('35')">3-5</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('68')">6-8</button> / </span>
+                     <button class="cbp-filter-item" onclick="researchSelection('912')">9-12</button>
+                </div>
             <div id="price-slider" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--project item-->
                 <!-- <div class="price-item item text-left col-md-4"> -->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="k2">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4"><a href="genAIk2.html">GenAI for K-2nd Grade Classrooms</a></h4>
                     <div class="team-image">
                         <a href="genAIk2.html"><img src="images/genai_k2.png" alt="image"></a>
@@ -199,7 +205,7 @@
 
                 <!--project item-->
                 <!-- <div class="price-item item text-left col-md-4"> -->
-                <div class="price-item item text-left"style="height:625px">     
+                <div class="price-item item text-left"style="height:625px"type="35">     
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4"><a href="genAI35.html">GenAI for 3-5th Grade Classrooms</a></h4>
                     <div class="team-image">
                         <a href="genAI35.html"><img src="images/genai_35.png" alt="image"></a>
@@ -212,7 +218,7 @@
                     
                 <!--project item-->
                 <!-- <div class="price-item item text-left col-md-4"> -->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px"type="k2">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4"><a href="popbots.html">PopBots: Preschool AI Curriculum</a></h4>
                     <div class="team-image">
                         <a href="popbots.html"><img src="images/popbots-slider.jpg" alt="image"></a>
@@ -224,14 +230,14 @@
             </div>
 
 
-        </div>
+        <!-- </div> -->
 
-        <div class="row">
+        <!-- <div class="row"> -->
 
             <div id="price-slider-1" class="owl-carousel owl-item wow fadeInUp">
                 
                 <!--project item-->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68">
                     <a href="aiethics.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">AI + Ethics Curriculum for Middle School</h4></a>
                     <div class="team-image">
                         <a href="aiethics.html"><img src="images/hopesfears.jpg" alt="image"></a>
@@ -242,7 +248,7 @@
                 </div>
                 
                 
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68">
                     <a href="poppet.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">PopPet: ScratchX Compatible Robotic AI Platform</h4></a>
                     <div class="team-image">
                        <a href="poppet.html"> <img src="images/poppet.png" alt="image"></a>
@@ -254,7 +260,7 @@
                 </div>
                 
                 
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35">
                     <a href="zhorai.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Zhorai</h4></a>
                     <div class="team-image">
                         <a href="zhorai.html"><img src="images/zhorai.png" alt="image"></a>
@@ -272,7 +278,7 @@
             <div id="price-slider-2" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--project item-->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68">
                     <a href="embeducation.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Embeducation</h4></a>
                     <div class="team-image">
                        <a href="embeducation.html"> <img src="images/embeducation.png" alt="image"></a>
@@ -285,7 +291,7 @@
                 
                 
                 <!--project item-->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68">
                     <a href="superpoly.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Supervised Polygons</h4></a>
                     <div class="team-image">
                         <a href="superpoly.html"><img src="images/polygons.png" alt="image"></a>
@@ -298,7 +304,7 @@
 
 
                 <!--project item-->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68">
                     <a href="convagents.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Conversational Agents</h4></a>
                     <div class="team-image">
                         <a href="convagents.html"><img src="images/conversational-ai.png" alt="image"></a>
@@ -338,11 +344,11 @@
  <br><br></p>
                     
                     <a href="https://supervised-polygons.github.io/supervised-polygons/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
-                </div>
+                </div>-->
 
 
                 <!--project item-->
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="k2 35">
                     <a href="robotliteracy.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Robotic Literacy Tools</h4></a>
                     <div class="team-image">
                         <a href="robotliteracy.html"><img src="images/tega.jpg" alt="image"></a>
@@ -355,7 +361,7 @@
                 </div>
 
 
-                <div class="price-item item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68">
                     <a href="growthmindset.html"><h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Growth Mindset and Curiosity</h4></a>
                     <div class="team-image">
                         <a href="growthmindset.html"><img src="images/jibo.jpeg" alt="image"></a>

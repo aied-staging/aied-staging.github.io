@@ -1815,7 +1815,22 @@ header .center-logo a.logo img {max-width: 130px;}
     display: inline-block;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:none;
 }
+
+.price-item-show{
+    display: block;
+}
+
+/*.owl-item{
+
+    display:none;
+}
+
+.owl-item-show{
+    display: block;
+}
+*/
 .price{
     position: relative;
     display: inline-block;
@@ -3178,6 +3193,118 @@ ul.count_down.white li p:nth-child(2) {
 .comment-form textarea{
     margin-bottom: 1.2rem;
     resize: none;
+}
+
+/*research content*/
+
+.research-item-content h4{
+    margin-bottom: 2.5rem;
+}
+
+.research-item-content h4 a:hover{
+
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.research-list-item{
+    margin-bottom: 4rem;
+    display: none;
+}
+
+.research-list-item:last-child{
+    margin-bottom: 1rem;
+}
+
+.research-list-item-show{
+    display: block;
+}
+
+
+/*project content*/
+
+.project-item-content h4{
+    margin-bottom: 2.5rem;
+}
+
+.project-item-content h4 a:hover{
+
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-list-item{
+    margin-bottom: 4rem;
+}
+
+.project-list-item:last-child{
+    margin-bottom: 1rem;
+}
+
+.project-list-item-show{
+    display: block;
+}
+
+/* ===================================
+    Curriculum Info
+====================================== */
+
+.curriculum-item{
+    border: 2px solid #FFFFFF;
+    padding: 32px 21px;
+    border-radius: 4px;
+    max-width: 380px;
+    margin: 10px;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display:none;
+}
+
+.curriculum-item-show{
+    display: block;
+}
+
+
+/* ===================================
+    Project Items
+====================================== */
+
+.project-list-item{
+    margin-bottom: 4rem;
+}
+
+.project-list-item:last-child{
+    margin-bottom: 1rem;
+}
+
+.project-list-item-show{
+    display: block;
+}
+
+.project-item-content h4{
+    margin-bottom: 2.5rem;
+}
+
+.project-item-content h4 a:hover{
+
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* ===================================

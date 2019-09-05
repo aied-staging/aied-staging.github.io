@@ -95,9 +95,11 @@ jQuery(function ($) {
     }else {
 
         $(".scroll").on("click", function (event) {
-            event.preventDefault();
-            $("html,body").animate({
-                scrollTop: $(this.hash).offset().top - 60}, 1200);
+            if (this.hash && $(this.hash).length > 0){
+                event.preventDefault();
+                $("html,body").animate({
+                    scrollTop: $(this.hash).offset().top - 60}, 1200);
+            }
         });
 
     }
@@ -911,10 +913,12 @@ jQuery(function ($) {
 
 });
 
- // filter
+    /* ===================================
+           Filter Blog Post
+    ====================================== */
+
 filterSelection("all")
 function filterSelection(c) {
-    console.log(c)
   var x, i;
   x = document.getElementsByClassName("blog-list-item");
     
@@ -955,12 +959,78 @@ function w3RemoveClass(element, name) {
 
 //Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("cbp-filter-item");
-console.log(btns)
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+if (btnContainer){
+   var btns = btnContainer.getElementsByClassName("cbp-filter-item");
+
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+}
+
+
+
+
+    /* ===================================
+           Filter Projects
+    ====================================== */
+
+researchSelection("all")
+function researchSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("price-item");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+
+    researchRemoveClass(x[i], "price-item-show");
+    var shouldBeShowing = x[i].getAttribute("type").indexOf(c) > -1
+    if (shouldBeShowing) researchAddClass(x[i], "price-item-show");
+
+
+    // researchRemoveClass(x[i].parentNode, "owl-item-show");
+    // if (shouldBeShowing) researchAddClass(x[i].parentNode, "owl-item-show");
+
+  }
+}
+
+// Show filtered elements
+function researchAddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function researchRemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1); 
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+//Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+if (btnContainer){
+    var btns = btnContainer.getElementsByClassName("cbp-filter-item");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
 }
