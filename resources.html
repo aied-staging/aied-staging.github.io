@@ -180,16 +180,24 @@
                 </div>
             </div>
         </div>
-
+        
 
 
 
         <!--Team-->
         <div class="row">
+            <!--filter buttons-->
+            <div id="myBtnContainer" class="cbp-l-filters-button">
+                    <button class="cbp-filter-item active" onclick="showAll()"> Show all</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('k2')">K-2</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('35')">3-5</button> / </span>
+                    <button class="cbp-filter-item" onclick="researchSelection('68')">6-8</button> / </span>
+                     <button class="cbp-filter-item" onclick="researchSelection('912')">9-12</button>
+                </div>
             <div id="price-slider" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">App Inventor</h4>
                     <div class="team-image">
                         <img src="images/app-inventor.png" alt="image">
@@ -205,32 +213,32 @@
 
                     </div>
 
-                    <p> <br> <br> App inventor is a visual, block-based programming language for building Android apps. <br><br></p>
+                    <p> <br> App inventor is a visual, block-based programming language for building Android apps. <br><br> <br></p>
                     
                     <a href="https://appinventor.mit.edu/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Teachable Machine</h4>
                     <div class="team-image">
                         <img src="images/teachablem.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Teachable machines is a browser-based platform by Google, where you can train classifiers for your own image recognition algorithm. <br><br></p>
+                    <p><br> Teachable machines is a browser-based platform by Google, where you can train classifiers for your own image recognition algorithm. <br><br></p>
                     
                     <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
                 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Scratch</h4>
                     <div class="team-image">
                         <img src="images/logo-scratch.png" alt="image">
                     </div>
 
-                    <p> <br> <br> Scratch is a block-based programming language where children 8 to 16 can create their own interactive stories, games, and animations.... <br><br></p>
+                    <p> <br> Scratch is a block-based programming language where children 8 to 16 can create their own interactive stories, games, and animations. <br><br></p>
                     
                     <a href="https://scratch.mit.edu/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -242,13 +250,13 @@
             <div id="price-slider-1" class="owl-carousel owl-item wow fadeInUp">
                      <!--resource item-->
                 
-                                <div class="team-box item text-left" style="height:625px">
+                    <div class="price-item item text-left" style="height:625px" type="68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Snap! AI</h4>
                     <div class="team-image">
                         <img src="images/snap_med.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Ken Kahn developed a set of extensions to the Snap! programming language to enable children (and non-expert programmers) to build AI programs. <br><br></p>
+                    <p> <br> Ken Kahn developed a set of extensions to the Snap! programming language to enable children (and non-expert programmers) to build AI programs. <br><br></p>
                     
                     <a href="https://ecraft2learn.github.io/ai/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -257,25 +265,25 @@
                 
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Google AI Experiments</h4>
                     <div class="team-image">
                         <img src="images/google-aiexp.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning.<br><br></p>
+                    <p> <br>  AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning.<br><br><br></p>
                     
                     <a href="https://experiments.withgoogle.com/collection/ai" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="35 68">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Google AIY</h4>
                     <div class="team-image">
                         <img src="images/aiy_med.png" alt="image">
                     </div>
 
-                    <p> <br> <br> With AIY maker kits, build intelligent systems that see, speak, and understand.<br><br></p>
+                    <p> <br> With AIY maker kits, build intelligent systems that see, speak, and understand.<br><br><br><br></p>
                     
                     <a href="https://aiyprojects.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -288,20 +296,20 @@
             <div id="price-slider-2" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Google What If</h4>
                     <div class="team-image">
                         <img src="images/whatif_med.png" alt="image">
                     </div>
 
-                    <p> <br> <br> The What-If Tool makes it easy to efficiently and intuitively explore up to two models' performance on a dataset. <br><br></p>
+                    <p>  <br> The What-If Tool makes it easy to efficiently and intuitively explore up to two models' performance on a dataset. <br><br><br></p>
                     
                     <a href="https://pair-code.github.io/what-if-tool/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>    
 
 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Tensorflow Playground</h4>
                     <div class="team-image">
                         <img src="images/tensorflor_med.png" alt="image">
@@ -314,19 +322,19 @@
                                </ul>
                            </div>
                     </div>
-                    <p> <br> <br> TensorFlow Playground is an interactive visualization of neural networks. <br><br></p>
+                    <p> <br> TensorFlow Playground is an interactive visualization of neural networks. <br><br><br><br> </p>
                     
                     <a href="https://playground.tensorflow.org/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>   
                 
                 <!--resource item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="k2 35 68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4"> AI4K12 wiki</h4>
                     <div class="team-image">
                        <br><br><br> <img src="images/resources-ai4k12.png" alt="image">
                     </div>
 
-                    <p> <br><br><br> <br> This interim site is being used to organize the AI for K-12 initiative jointly sponsored by AAAI and CSTA. <br><br></p>
+                    <p> <br><br><br><br><br> <br> This interim site is being used to organize the AI for K-12 initiative jointly sponsored by AAAI and CSTA.<br> <br><br></p>
                     
                     <a href="https://github.com/touretzkyds/ai4k12/wiki" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>        
@@ -343,37 +351,37 @@
             <div id="price-slider-curricula" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:650px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">MIT Beaver Works</h4>
                     <div class="team-image">
                         <img src="images/beaver.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> The MIT Lincoln Laboratory Beaver Works Center (Lincoln Beaver Works) conducts research and educational programs that strengthen and expand collaborative efforts between Lincoln Laboratory and MIT campus.  <br><br></p>
+                    <p> <br>The MIT Lincoln Laboratory Beaver Works Center conducts research and educational programs that strengthen and expand collaborative efforts between Lincoln Laboratory and MIT campus. <br> <br></p>
                     
                     <a href="https://beaverworks.ll.mit.edu/CMS/bw/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
                <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:650px" type="35 68">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Iridescent AI</h4>
                     <div class="team-image">
                         <img src="images/cur-iridescent.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Iridescent AI Family Challenge is a global competition that challenges families to solve a problem in their community with AI. Families first learn about basic AI concepts through a series of hands-on projects, and then apply what they learn to their own project.<br><br></p>
+                    <p> <br> Iridescent AI Family Challenge is a global competition that challenges families to solve a problem in their community with AI. <br><br><br><br></p>
                     
                     <a href="https://www.curiositymachine.org/aichallenge/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
                 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:650px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">GPU Teaching Kit</h4>
                     <div class="team-image">
                         <img src="images/cur-nvidia.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> The GPU Teaching Kit is a set of lessons developed by NVIDIA and Computing in Schools that introduces students to the world of Machine Learning and Deep Learning. <br><br></p>
+                    <p> <br> The GPU Teaching Kit is a set of lessons developed by NVIDIA and Computing in Schools that introduces students to the world of Machine Learning and Deep Learning. <br><br></p>
                     
                     <a href="http://aiinschools.com/resources/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -384,38 +392,38 @@
             <div id="price-slider-curricula-1" class="owl-carousel owl-item wow fadeInUp">
 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Calypso for Cozmo</h4>
                     <div class="team-image">
                         <img src="images/cur-calypso.png" alt="image">
                     </div>
 
-                    <p> <br> <br> Calypso is a rule-based programming language for learning about intelligent robots. Calypso was created so that children could write programs for the Cozmo robot by Anki. <br><br></p>
+                    <p> <br> Calypso is a rule-based programming language for learning about intelligent robots through the Cozmo robot by Anki. <br><br><br></p>
                     
                     <a href="https://calypso.software/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">Apps for Good - ML</h4>
                     <div class="team-image">
                         <img src="images/teachablem.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> Apps for good is... <br><br></p>
+                    <p> <br> <br> Apps for good is... <br><br><br><br></p>
                     
                     <a href="https://teachablemachine.withgoogle.com/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="68 912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">AI-In-A-Box</h4>
                     <div class="team-image">
                         <img src="images/AIBox.jpg" alt="image">
                     </div>
 
-                    <p> <br> <br> AI-In-A-Box is a quick start toolkit for teachers to use in the classroom. AI-In-A-Box comes with robots, computers, and teacher guides to get students started with AI concepts in 10 minutes. <br><br></p>
+                    <p> <br> AI-In-A-Box is a quick start toolkit for teachers to use in the classroom and comes with robots, computers, and teacher guides to get students started with AI concepts. <br><br></p>
                     
                     <a href="https://www.readyai.org/readyai-you/ai-in-a-box/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>
@@ -427,13 +435,13 @@
 
 
                 <!--curricula item-->
-                <div class="team-box item text-left" style="height:625px">
+                <div class="price-item item text-left" style="height:625px" type="912">
                     <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4">ML for Kids UK</h4>
                     <div class="team-image">
                         <img src="images/MLKidsUK.png" alt="image">
                     </div>
 
-                    <p> <br> <br> ML for Kids UK is free tool introduces machine learning by providing hands-on experiences for training machine learning systems and building things with them.  <br><br></p>
+                    <p> <br> ML for Kids UK is free tool introduces machine learning by providing hands-on experiences for training machine learning systems and building things with them.  <br><br></p>
                     
                     <a href="https://machinelearningforkids.co.uk/" class="btn btn-large btn-gradient btn-rounded w-100">Learn More</a>
                 </div>

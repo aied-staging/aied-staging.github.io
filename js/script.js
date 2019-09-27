@@ -999,7 +999,7 @@ if (btnContainer){
 showAll()
 function researchSelection(c) {
     showAll();
-    $( ".price-item[type!="+c+"]" ).css("opacity", .1)
+    $( ".price-item").not("[type*="+c+"]").css("opacity", .1)
   // var x, i;
   // x = document.getElementsByClassName("price-item");
   // if (c == "all") c = "";
