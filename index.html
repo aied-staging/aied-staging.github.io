@@ -1170,14 +1170,14 @@
             <div id="js-filters-mosaic-flat" class="cbp-l-filters-button text-center">
                 
                 
-
-               <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+            <div id="myBtnContainer" class="cbp-l-filters-button">
+                <div data-filter="*" class="cbp-filter-item active" onclick="showAllPeople()">All</div>
                 <span class="text-blue">/</span>    
-                <div data-filter=".faculty" class="cbp-filter-item">Faculty & Staff</div>
+                <div data-filter=".faculty" class="cbp-filter-item" onclick="peopleSelection('faculty')">Faculty & Staff</div>
                 <span class="text-blue"> / </span>
-                <div data-filter=".students" class="cbp-filter-item">Students</div>
+                <div data-filter=".students" class="cbp-filter-item" onclick="peopleSelection('student')">Students</div>
                 <span class="text-blue">  </span>
-                
+            </div> 
             
             
 
@@ -1196,7 +1196,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image" >
                            <img src="images/team-cynthia.jpg" alt="image">
@@ -1236,7 +1236,7 @@
 
                <div class="col-md-4 cbp-item faculty">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-sanjay.jpg" alt="image">
@@ -1277,7 +1277,7 @@
 
                 <div class="col-md-4" "cbp-item faculty">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-hal.jpg" alt="image">
@@ -1315,7 +1315,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-kgallagher.png" alt="image">
@@ -1352,7 +1352,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-mitch.jpg" alt="image">
@@ -1395,7 +1395,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-eric.png" alt="image">
@@ -1435,7 +1435,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-YJ.png" alt="image">
@@ -1469,7 +1469,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-john-copy.jpg" alt="image">
@@ -1515,7 +1515,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-david.jpg" alt="image">
@@ -1547,7 +1547,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-george.png" alt="image">
@@ -1581,7 +1581,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-robert.jpg" alt="image">
@@ -1623,7 +1623,7 @@
                 <div class="col-md-4">
                    <!--Team Item-->
                    <div class="cbp-item faculty">
-                   <div class="team-box item" >
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-hae.jpg" alt="image">
@@ -1660,7 +1660,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-jim.jpeg" alt="image">
@@ -1693,9 +1693,9 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
-                       <div class="team-image">
+                       <div class="team-image" >
                            <img src="images/team-andrew.png" alt="image">
                            <!--Team Overlay-->
                            <div class="overlay center-block">
@@ -1738,7 +1738,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="faculty">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-glenda.jpg" alt="image">
@@ -1772,7 +1772,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-huili%20copy.jpeg" alt="image">
@@ -1806,7 +1806,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-sam.jpeg" alt="image">
@@ -1848,7 +1848,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-blakely.jpg" alt="image">
@@ -1864,7 +1864,7 @@
                        </div>
 
                         <div class="team-text text-left">
-                           <h5>Blakely H Payne</h5>
+                           <h5>Blakeley H Payne</h5>
                            <br>
                            <span class="alt-font"> Graduate Student, MIT Media Lab, Personal Robots Group</span>
 
@@ -1882,7 +1882,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-cynthia-randi.png" alt="image">
@@ -1916,7 +1916,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-jess.jpg" alt="image">
@@ -1958,7 +1958,7 @@
 
                 <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-safinah.jpg" alt="image">
@@ -1992,7 +1992,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-daniella.jpg" alt="image">
@@ -2025,7 +2025,7 @@
 
                <div class="col-md-4">
                    <!--Team Item-->
-                   <div class="team-box item">
+                   <div class="team-box item" type="student">
                        <!--Team Image-->
                        <div class="team-image">
                            <img src="images/team-natalie.jpeg" alt="image">
