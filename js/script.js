@@ -443,6 +443,23 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-4").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     $("#price-slider-curricula").owlCarousel({
         items: 3,
         dots: false,
@@ -978,49 +995,62 @@ if (btnContainer){
            Filter Projects
     ====================================== */
 
-researchSelection("all")
+// researchSelection("all")
+showAll()
 function researchSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("price-item");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
+    showAll();
+    $( ".price-item[type!="+c+"]" ).css("opacity", .1)
+  // var x, i;
+  // x = document.getElementsByClassName("price-item");
+  // if (c == "all") c = "";
+  // // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  // for (i = 0; i < x.length; i++) {
 
-    researchRemoveClass(x[i], "price-item-show");
-    var shouldBeShowing = x[i].getAttribute("type").indexOf(c) > -1
-    if (shouldBeShowing) researchAddClass(x[i], "price-item-show");
+  //   // researchRemoveClass(x[i], "price-item-show");
+  //   console.log(x[i].getAttribute("type").indexOf(c));
+  //   var shouldntBeShowing = x[i].getAttribute("type").indexOf(c) <= -1
+  //   console.log(shouldntBeShowing.length);
+
+  //   //   for (i=0; i<shouldntBeShowing.length; i++){
+  //   //     shouldntbeshowing.className = "price-item-show";
+  //   // }
 
 
-    // researchRemoveClass(x[i].parentNode, "owl-item-show");
-    // if (shouldBeShowing) researchAddClass(x[i].parentNode, "owl-item-show");
+  //   // researchRemoveClass(x[i].parentNode, "owl-item-show");
+  //   // if (shouldBeShowing) researchAddClass(x[i].parentNode, "owl-item-show");
 
-  }
+  // }
 }
 
-// Show filtered elements
-function researchAddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
+function showAll() {
+    $(".price-item").show();
+    $(".price-item").css("opacity", 1)
 }
 
-// Hide elements that are not selected
-function researchRemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1); 
-    }
-  }
-  element.className = arr1.join(" ");
-}
+// // Show filtered elements
+// function researchAddClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     if (arr1.indexOf(arr2[i]) == -1) {
+//       element.className += " " + arr2[i];
+//     }
+//   }
+// }
+
+// // Hide elements that are not selected
+// function researchRemoveClass(element, name) {
+//   var i, arr1, arr2;
+//   arr1 = element.className.split(" ");
+//   arr2 = name.split(" ");
+//   for (i = 0; i < arr2.length; i++) {
+//     while (arr1.indexOf(arr2[i]) > -1) {
+//       arr1.splice(arr1.indexOf(arr2[i]), 1); 
+//     }
+//   }
+//   element.className = arr1.join(" ");
+// }
 
 //Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");

@@ -1815,11 +1815,13 @@ header .center-logo a.logo img {max-width: 130px;}
     display: inline-block;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display:none;
+    display: block;
+
+    
 }
 
 .price-item-show{
-    display: block;
+    opacity:.1;
 }
 
 /*.owl-item{
