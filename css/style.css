@@ -1485,13 +1485,13 @@ header .center-logo a.logo img {max-width: 130px;}
 }
 
 .team-box-three .team-image{
-    max-width: 200px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    max-width: 250px;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
     overflow: hidden;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: auto;
     transform: translateX(1px);
 }
 
