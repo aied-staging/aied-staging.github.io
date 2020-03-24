@@ -1,26 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146426466-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-146426466-1');
-    </script> -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Page Title -->
-    <title>AI Education - Blog</title>
+    <title>AIk12MIT - genAI</title>
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
     <!-- Animate -->
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- DropDown CSS -->
+    <link rel="stylesheet" href="css/dropdown.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Owl Carousel -->
@@ -38,7 +31,7 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
 
 <!--Loader Start-->
 <div class="loader">
@@ -71,22 +64,41 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon">
         <div class="container">
-            <a href="index.html#home" title="Logo" class="logo link scroll">
+            <a href = "https://aieducation.mit.edu" title="MIT" class="logo link scroll" >
+                <img src="images/MIT-logo-ltgray-white-54x28.svg"  alt="logo" class="logo-dark default" >
+              
+            </a>
+
+            <a href = "https://openlearning.mit.edu/" title="MIT Open Learning" class="logo link scroll" target="_blank" style="padding:20px;">
                 <!--Logo Default-->
-                <img src="images/MIT-logo-ltgray-white-54x28.svg" alt="logo" class="logo-dark default">
+              
+                <img src="images/ol-logo-white.png"  alt="logo" class="logo-dark default" >
+         
+            </a>
+
+            <a href = "https://quest.mit.edu/"title="MIT Quest for Intelligence" class="logo link scroll" target="_blank">
+                <!--Logo Default-->
+               
+                <img src="images/mitqfi.png"  alt="logo" class="logo-dark default" >
+            </a>
+
+            <a href = "https://www.media.mit.edu/"title="MIT Media Lab" class="logo link scroll" target="_blank">
+                <!--Logo Default-->
+               
+                <img src="images/medialab_logo_white.png"  alt="logo" class="logo-dark default" >
             </a>
 
             <!--Nav Links-->
-            <div class="collapse navbar-collapse" >
+            <div class="collapse navbar-collapse" id="wexim">
                 <div class="navbar-nav ml-auto">
                         <a class="nav-link link" href="index.html#home">Home</a>
                         <a class="nav-link link" href="index.html#about">About</a>
                         <a class="nav-link link " href="index.html#team">People</a>
-                        <a class="nav-link link" href="index.html#research">Research</a>
+                        <a class="nav-link link" href="projects.html">Research</a>
                         <a class="nav-link link " href="index.html#portfolio">Curricula</a>
-                        <a class="nav-link link " href="resources.html">Resources</a>
-                        <a class="nav-link link" href="blog-left.html">News</a>
-                    <span class="menu-line"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                        <a class="nav-link link " href="resources.html"  target="_blank">Resources</a>
+                        <a class="nav-link link" href="blog-left.html"  target="_blank">News</a>
+                    <!-- <span class="menu-line"><i class="fa fa-angle-down" aria-hidden="true"></i></span> -->
                 </div>
             </div>
 
@@ -133,6 +145,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link" href="blog-left.html">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link link" href="faq.html">FAQ</a>
                     </li>
                 </ul>
             </nav>
