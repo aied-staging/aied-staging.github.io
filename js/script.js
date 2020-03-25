@@ -616,6 +616,24 @@ jQuery(function ($) {
         }
     });
 
+
+    $("#team-three-slider-5").owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
     //testimonial slider
 
     $("#testimonial_slider").owlCarousel({
