@@ -584,7 +584,7 @@ jQuery(function ($) {
     });
 
 
-    $("#price-slider-curricula-3").owlCarousel({
+    $("#price-slider-curricula-4").owlCarousel({
         items: 3,
         dots: false,
         nav: false,
