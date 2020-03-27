@@ -763,9 +763,29 @@ header .center-logo a.logo img {max-width: 130px;}
     color: #fff !important;
 }
 
+
+
 .scroll-down i{
     font-size: 12px;
     padding-left: 10px;
+    color: #fff;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.scroll-down-para{
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    z-index: 13;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff !important;
+}
+
+.scroll-down-para i{
+    font-size: 50px;
+    padding-left: 0px;
     color: #fff;
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
