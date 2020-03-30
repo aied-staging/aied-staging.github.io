@@ -385,9 +385,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -402,9 +408,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -419,9 +431,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -436,9 +454,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -453,9 +477,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -471,9 +501,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -489,9 +525,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -506,9 +548,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -525,9 +573,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -542,9 +596,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -559,9 +619,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -576,9 +642,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -594,9 +666,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -611,9 +689,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
@@ -628,9 +712,15 @@ jQuery(function ($) {
             },
             767: {
                 items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
     });
