@@ -772,7 +772,7 @@ jQuery(function ($) {
     });
 
 
-    $("#team-three-slider-5").owlCarousel({
+    $("#team-three-slider-4").owlCarousel({
         items: 4,
         dots: false,
         nav: false,
@@ -791,8 +791,13 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+            },
         }
     });
+
+
+
+    
 
     //testimonial slider
 
