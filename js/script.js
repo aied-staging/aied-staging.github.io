@@ -690,11 +690,18 @@ jQuery(function ($) {
     //testimonial slider
 
     $("#testimonial_slider").owlCarousel({
-        items: 1,
-        dots: true,
-        nav: false,
-        loop: true,
-        autoplay: true,
+        // items: 1,
+        // dots: true,
+        // nav: false,
+        // autoplay: true,
+        // loop: true,
+
+        items:1,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
     });
 
     //single slider
