@@ -701,7 +701,6 @@ jQuery(function ($) {
         margin:10,
         autoplay:true,
         autoplayTimeout:4000,
-        autoplayHoverPause:true
     });
 
     //single slider
@@ -734,6 +733,9 @@ jQuery(function ($) {
             },
             320: {
                 items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
             },
         }
 
