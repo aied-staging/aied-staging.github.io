@@ -733,7 +733,7 @@ jQuery(function ($) {
             },
             320: {
                 items: 1,
-                autoplayHoverPause:true,
+                
                 autoplay: true,
                 autoplayTimeout: 3000,
             },
