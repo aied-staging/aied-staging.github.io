@@ -4441,7 +4441,7 @@ ul.count_down.white li p:nth-child(2) {
     .rev_slider .caption, .rev_slider .tp-caption p{
         line-height: 1.2 !important;
         letter-spacing:.5px !important;
-        font-size: 12px !important;
+        font-size: 20px !important;
     }
     .blog-detail-tag .btn{
         margin: 5px 0;
