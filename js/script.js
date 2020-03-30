@@ -693,6 +693,8 @@ jQuery(function ($) {
         items: 1,
         dots: true,
         nav: false,
+        loop: true,
+        autoplay: true,
     });
 
     //single slider
