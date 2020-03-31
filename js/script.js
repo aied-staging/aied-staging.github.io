@@ -772,7 +772,7 @@ jQuery(function ($) {
     });
 
 
-    $("#team-three-slider-4").owlCarousel({
+    $("#team-three-slider-5").owlCarousel({
         items: 4,
         dots: false,
         nav: false,
