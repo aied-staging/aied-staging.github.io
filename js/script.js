@@ -378,6 +378,7 @@ jQuery(function ($) {
     $("#price-slider").owlCarousel({
         items: 3,
         dots: false,
+
         nav: false,
         responsive: {
             991: {
@@ -388,12 +389,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -411,12 +414,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -434,12 +439,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -457,12 +464,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -480,12 +489,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -504,12 +515,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -528,12 +541,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -551,12 +566,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -576,12 +593,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -599,12 +618,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -622,12 +643,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -645,12 +668,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -669,12 +694,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -692,12 +719,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -715,12 +744,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -738,12 +769,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -761,12 +794,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
@@ -785,12 +820,14 @@ jQuery(function ($) {
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
             320: {
                 items: 1,
                 autoplayHoverPause:true,
                 autoplay: true,
                 autoplayTimeout: 3000,
+                loop:true,
             },
         }
     });
