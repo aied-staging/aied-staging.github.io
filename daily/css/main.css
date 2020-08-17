@@ -155,6 +155,7 @@ a[data-toggle="collapse"] {
 
 .my-col a:hover {
   font-weight: bold;
+  color: #3363ff;
 }
 
 .head-row {
