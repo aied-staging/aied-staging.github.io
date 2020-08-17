@@ -150,11 +150,11 @@ a[data-toggle="collapse"] {
 
 .my-col a {
   color: #3363ff;
+  text-decoration: none;
 }
 
 .my-col a:hover {
   font-weight: bold;
-  text-decoration: none;
 }
 
 .head-row {
