@@ -136,6 +136,10 @@ a[data-toggle="collapse"] {
   border: 1px solid rgb(199, 197, 197);
 }
 
+.my-row {
+  word-wrap: break-word;
+}
+
 .my-row p {
   color: #3363ff;
 }
@@ -155,7 +159,6 @@ a[data-toggle="collapse"] {
 
 .my-col a:hover {
   font-weight: bold;
-  color: #3363ff;
 }
 
 .head-row {
@@ -338,4 +341,34 @@ a[data-toggle="collapse"] {
     width: 20rem;
     margin-left: 0;
   }
+  .my-row {
+    font-size: x-small;
+  }
+}
+
+/* People Page */
+
+figcaption {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.subcaption {
+  font-size: small;
+  font-style: italic;
+  margin-top: -1px;
+}
+
+figure img {
+  border-radius: 50%;
+}
+
+figure {
+  background-color: #eee;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
