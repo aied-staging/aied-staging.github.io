@@ -205,7 +205,11 @@ a[data-toggle="collapse"] {
   width: 100%;
   top: 0;
   position: fixed;
-  background: #6d33ff;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(129, 45, 238),
+    #3363ff
+  );
   z-index: 100;
 }
 
