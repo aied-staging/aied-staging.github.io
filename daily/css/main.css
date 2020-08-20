@@ -379,6 +379,14 @@ figure img {
   margin-bottom: 10px;
 }
 
+.profile-card {
+  margin: 1px;
+  background-color: #eee;
+  padding: 6%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 figcaption {
   font-family: "Roboto", sans-serif;
   font-size: medium;
@@ -395,18 +403,6 @@ figcaption a {
 .subcaption {
   font-size: small;
   font-weight: normal;
-}
-
-figure img {
-  border-radius: 50%;
-}
-
-figure {
-  background-color: #eee;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 
 /* Contact Us Section */

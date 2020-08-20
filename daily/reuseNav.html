@@ -16,6 +16,16 @@
 <link rel="stylesheet" href="css/main.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
 
+<style>
+  .show {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+}
+</style>
+
 <div class="topnavWrapper">
     <div class="navbar navbar-dark navbar-expand-md">
       <nav class="navbar navbar-dark" id="sidenavToggle">
@@ -420,6 +430,7 @@
 ></script>
 
 <script>
+
   $(document).ready(function () {
     $("#sidebarCollapse").on("click", function () {
       $("#sidebar").toggleClass("active");
