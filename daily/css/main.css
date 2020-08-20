@@ -129,11 +129,12 @@ a[data-toggle="collapse"] {
   left: 100px;
 }
 
-/* People Page Grid/Table */
+/* People Container Page */
 
-.my-container {
-  font-family: "Times New Roman", serif;
-  border: 1px solid rgb(199, 197, 197);
+/* Teaching Resources Page */
+
+.my-teach-container {
+  border: 1px solid rgb(165, 165, 165);
 }
 
 .my-row {
@@ -145,11 +146,22 @@ a[data-toggle="collapse"] {
 }
 
 .my-col {
-  border: 1px solid rgb(199, 197, 197);
+  border: 1px solid rgb(165, 165, 165);
   font-family: "Roboto", sans-serif;
   font-size: 0.9rem;
-  hyphens: auto;
   list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.my-col ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+
+.my-col li {
+  list-style-type: disc;
 }
 
 .my-col a {
@@ -159,16 +171,22 @@ a[data-toggle="collapse"] {
 
 .my-col a:hover {
   font-weight: bold;
+  text-decoration: none;
 }
 
 .head-row {
-  background: #eee;
+  background: rgb(109, 51, 225, 0.25);
   font-weight: bold;
 }
 
 .head-col {
   background: #eee;
   font-weight: bold;
+}
+
+.head-col li {
+  font-weight: normal;
+  font-size: small;
 }
 
 /* Top Nav Bar */
@@ -254,7 +272,7 @@ a[data-toggle="collapse"] {
 
 #main h3 {
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: normal;
   font-family: "Roboto", sans-serif;
   padding-left: 2rem;
 }
@@ -348,17 +366,26 @@ a[data-toggle="collapse"] {
 
 /* People Page */
 
+figure img {
+  margin-bottom: 10px;
+}
+
 figcaption {
   font-family: "Roboto", sans-serif;
   font-size: medium;
   text-align: center;
-  margin-top: 10px;
+  font-weight: bold;
+}
+
+figcaption a {
+  font-size: small;
+  color: #3363ff;
+  font-weight: normal;
 }
 
 .subcaption {
   font-size: small;
-  font-style: italic;
-  margin-top: -1px;
+  font-weight: normal;
 }
 
 figure img {
@@ -371,4 +398,27 @@ figure {
   padding-left: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+/* Contact Us Section */
+
+#contact {
+  margin-left: 250px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: rgb(184, 183, 183);
+  color: white;
+}
+
+.contact-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: smaller;
+}
+
+.contact-info a:hover {
+  color: #3363ff;
 }

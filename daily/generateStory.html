@@ -8,6 +8,7 @@
       $(document).ready(
         $(function () {
           $("#navbars").load("reuseNav.html");
+          $("#contact").load("contactUs.html");
         })
       );
     </script>
@@ -34,34 +35,17 @@
     <div id="main">
       <div class="container">
         <div class="row">
-          <h1 class="col-5 ">Generate a Story</h1>
-          <h3 class="col-7 ">
-            This page is structured as follows:<br></br>
-            <ul>
-              <li>
-                The first slideshow is the slide deck teaching the important
-                concepts for this entire topic.
-              </li>
-              <li>
-                The follow activities are supplementary activities that kids
-                should complete to reinforce these important concepts.
-              </li>
-            </ul>
-            <strong
-              >These activities are listed in the order we suggest you
-              follow.</strong
-            >
-          </h3>
+          <h1 class="col-5">Generate a Story</h1>
         </div>
       </div>
       <ol>
-        <li class="spacing">Main Script and Slides
+        <li class="spacing" id="textGenStory">
+          Main Script and Slides
           <a href="index.html#cc">
-            <img src="assets/cc-by-nc.png">
+            <img src="assets/cc-by-nc.png" />
           </a>
         </li>
-        <div>
-        <div class="container activity subtext">
+        <div class="container activity">
           <div class="row justify-content-center">
             <div class="col-5 description">
               <ul>
@@ -70,57 +54,22 @@
                   <a
                     href="https://docs.google.com/document/d/1uLXyv9DXykAum_VqWwkBKiCXry-jAy2lBHA3_e7FJiM/copy"
                     target="_blank"
-                    >Script</a
-                  > & 
+                    >Script </a
+                  >&
                   <a
-                    href="https://docs.google.com/presentation/d/1raZlmEboRLAO58riQ7JB0TFOsxn_dPx4opqz5_Ij9SA/copy"
+                    href="https://docs.google.com/presentation/d/13uL7j0M1XbBhcDcarOCslYbMTdQjTnzMlF3VPyB3jSE/copy"
                     target="_blank"
                     >Slides</a
                   >
                 </li>
-              </ul>
-            </div>
-            <iframe
-              src="https://docs.google.com/presentation/d/e/2PACX-1vQebvl4yK6AhhjCZHJqZKSqoZALR7jveeJRA347x3n5Dzm_-z-f-T4bnTsUHwG1sS0UUpSNxmyHFRez/embed?start=false&loop=false&delayms=3000"
-              frameborder="0"
-              allowfullscreen="true"
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              height="300"
-              class="col-7 slides"
-            ></iframe>
-          </div>
-        </div>
-        </div>
-        <li class="spacing" id="textGenStory">Storytelling with GANs
-          <a href="index.html#cc">
-            <img src="assets/cc-by-nc.png">
-          </a>
-        </li>
-        <div class="container activity">
-          <div class="row justify-content-center">
-            <div class="col-5 description">
-
-              <ul>
-                <li>
-                  <strong>Link:</strong>
-                  <a
-                    href="https://docs.google.com/presentation/d/13uL7j0M1XbBhcDcarOCslYbMTdQjTnzMlF3VPyB3jSE/copy"
-                    target="_blank"
-                    >Storytelling with GANs Slides</a
-                  >
-                </li>
                 <li><strong>Pre-Reqs:</strong> None</li>
-                <li>
-                  <strong>Suggested Length:</strong> 2 hours
-                </li>
+                <li><strong>Suggested Length:</strong> 2 hours</li>
                 <li><strong>Tech Dependencies:</strong> Google Chrome</li>
-                <li>
-                  <strong>Key Concepts:</strong> Text Generation
-                </li>
+                <li><strong>Key Concepts:</strong> Text Generation, AI Art</li>
                 <li><strong>Group Reqs:</strong> None</li>
                 <li>
-                  <strong>Description:</strong> Students use various GANs to generate text and artwork for their own GAN-created stories.
+                  <strong>Description:</strong> Students use various GANs to
+                  generate text and artwork for their own GAN-created stories.
                 </li>
               </ul>
             </div>
@@ -134,9 +83,10 @@
             ></iframe>
           </div>
         </div>
-        
+
         <div style="height: 100px;"></div>
       </ol>
     </div>
+    <div id="contact"></div>
   </body>
 </html>
