@@ -578,6 +578,31 @@ jQuery(function ($) {
         }
     });
 
+    $("#price-slider-8").owlCarousel({
+        items: 3,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 3,
+            },
+            767: {
+                items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+            320: {
+                items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+        }
+    });
+
 
 
     $("#price-slider-curricula").owlCarousel({
