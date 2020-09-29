@@ -1,0 +1,437 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  font-family: "Hind", sans-serif;
+  font-size: 0.95em;
+  font-weight: 300;
+  line-height: 1.2em;
+  color: #6d33ff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* Side Bar*/
+
+.sidenavWrapper {
+  left: 0;
+  width: 250px;
+  height: calc(100% - 56px);
+  background-color: #eeeeee;
+  color: black;
+  position: fixed;
+  overflow: scroll;
+  padding: 4px 0;
+  color: black;
+  font-weight: 200;
+  z-index: -1;
+}
+
+#sidenavToggle {
+  display: none;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #eeeeee;
+  color: black;
+  transition: all 0.3s;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin-bottom: 0rem;
+}
+
+#sidebar ul ul {
+  margin-left: -1.5rem;
+}
+
+#sidebar ul li {
+  border-bottom: darkgray 1px solid;
+  margin-right: 0px;
+}
+
+#sidebar .active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 15px;
+}
+
+#sidebar ul.components {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#sidebar ul li a {
+  padding: 3px;
+  font-size: 0.85em;
+  display: block;
+  border-left: 3px solid transparent;
+  padding-right: 12%;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#sidebar ul li a:hover {
+  color: #6d33ff;
+  background: rgb(109, 51, 225, 0.25);
+  border-left-color: #6d33ff;
+}
+
+#sidebar ul li.active > a {
+  background: #6d7fcc;
+  color: #fff;
+}
+
+#sidebar ul ul a {
+  padding-left: 5px !important;
+  background: #e1e1e1;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+#content {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  min-height: 100vh;
+  transition: all 0.3s;
+  top: 200px;
+  left: 100px;
+}
+
+/* People Container Page */
+
+/* Teaching Resources Page */
+
+.my-teach-container {
+  border: 1px solid rgb(165, 165, 165);
+}
+
+.my-row {
+  word-wrap: break-word;
+}
+
+.my-row p {
+  color: #3363ff;
+}
+
+.my-col {
+  border: 1px solid rgb(165, 165, 165);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.my-col ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+
+.my-col li {
+  list-style-type: disc;
+}
+
+.my-col a {
+  color: #3363ff;
+  text-decoration: none;
+}
+
+.my-col a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.head-row {
+  background: rgb(109, 51, 225, 0.25);
+  font-weight: bold;
+}
+
+.head-col {
+  background: #eee;
+  font-weight: bold;
+}
+
+.head-col li {
+  font-weight: normal;
+  font-size: small;
+}
+
+/* Top Nav Bar */
+
+#title {
+  left: 30px;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+  font-family: "Hind", sans-serif;
+}
+
+.topnavWrapper {
+  overflow: hidden;
+  color: black;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(129, 45, 238),
+    #3363ff
+  );
+  z-index: 100;
+}
+
+.topnavMenu {
+  width: auto;
+}
+
+.topnavMenu ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+}
+
+.mynavlink {
+  color: white;
+}
+
+.inlinks {
+  text-align: center;
+}
+
+.inlinks li a {
+  font-size: 1em;
+  float: right;
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.inlinks img {
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inlinks a:hover {
+  color: white;
+}
+
+/* Main Content */
+
+#main {
+  margin-top: 150px;
+  margin-left: 250px;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: calc(100%-250px);
+  transition: all 0.3s;
+}
+
+#main h1 {
+  font-weight: 600;
+  font-size: 2em;
+  color: black;
+  font-family: "Hind", sans-serif;
+}
+
+#main h2 {
+  font-weight: 450;
+  font-size: 1.5em;
+  font-family: "Hind", sans-serif;
+  margin-top: 1.5em;
+}
+
+#main h3 {
+  font-size: 0.9em;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding-left: 2rem;
+}
+
+#main ol {
+  padding: 0;
+}
+
+#main ol li a img {
+  height: 1em;
+  float: right;
+}
+
+#main .spacing {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #6d33ff;
+}
+
+#main .activity {
+  height: 320px;
+  border: 1px solid darkgray;
+  background: #eee;
+  border-radius: 1rem;
+}
+
+#main .slides {
+  height: 300px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#main .description {
+  height: 314px;
+  overflow: scroll;
+  font-size: 0.8em;
+  padding: 2%;
+}
+
+#main .description ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#main .description ul li {
+  margin-bottom: 0.4rem;
+}
+
+#main .description ul li > a {
+  text-decoration: none;
+  color: #3363ff;
+}
+
+#main .description ul li > a:hover {
+  font-weight: bold;
+}
+
+#main .description ul li strong {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Media (Browser Size Dependent) */
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+  #main {
+    margin-left: 0;
+  }
+  #sidenavToggle {
+    display: inline-block;
+  }
+  .inlinks {
+    width: 20rem;
+    margin-left: 0;
+  }
+  .my-row {
+    font-size: x-small;
+  }
+
+  #contact {
+    margin-left: -250px;
+    color: pink;
+  }
+}
+
+/* People Page */
+
+figure img {
+  margin-bottom: 10px;
+}
+
+.profile-card {
+  margin: 1px;
+  background-color: #eee;
+  padding: 6%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+figcaption {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
+
+figcaption a {
+  font-size: small;
+  color: #3363ff;
+  font-weight: normal;
+}
+
+.subcaption {
+  font-size: small;
+  font-weight: normal;
+}
+
+/* Contact Us Section */
+
+#contact {
+  padding-left: 50%;
+  padding-right: 15%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: rgb(184, 183, 183);
+  color: white;
+  text-align: right;
+}
+
+.contact-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: smaller;
+}
+
+.contact-info a:hover {
+  color: #3363ff;
+}
+
+/* Home Page */
+
+.divider {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(165, 165, 165);
+}

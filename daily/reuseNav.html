@@ -1,0 +1,457 @@
+<html>
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+<link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+/>
+<link rel="stylesheet" href="css/main.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+
+<style>
+  .show {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+}
+</style>
+
+<div class="topnavWrapper">
+    <div class="navbar navbar-dark navbar-expand-md">
+      <nav class="navbar navbar-dark" id="sidenavToggle">
+        <div class="container-fluid">
+          <button
+            type="button"
+            id="sidebarCollapse"
+            class="btn btn-info navbar-toggler"
+            data-toggle="collapse"
+          >
+            Lessons
+          </button>
+        </div>
+      </nav>
+      <a href="index.html" id="title">DAILy Workshop</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse topnavMenu" id="navbarMenu">
+        <ul class="navbar-nav ml-auto inlinks">
+          <li class="nav-item">
+            <a class="logos" href="https://education.mit.edu/">
+              <img src="assets/step-ea-web-reverse-off.png" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="logos" href="https://robotic.media.mit.edu/">
+              <img src="assets/PersonalRobots_Logo_R_RGB.png" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="logos" href="https://www.media.mit.edu/">
+              <img src="assets/MIT_ML_Logo_R_RGB.png"/>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teachingResources.html">Teaching Resources</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="sidenavWrapper navbar-expand-lg" id="sidebar">
+    <div class="sidebar-header">
+      <p>Unit 0: What is AI?</p>
+    </div>
+    <ul class="lisst-unstyled components">
+      <li>
+        <a
+          href="#whatIsAISubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+          >What is AI
+        </a>
+
+        <ul class="collapse lisst-unstyled" id="whatIsAISubmenu">
+          <li>
+            <a href="whatisai.html">Main Slides and Script</a>
+          </li>
+          <li>
+            <a href="whatisai.html#exploreAIJournal">Explore AI Journal</a>
+          </li>
+          <li>
+            <a href="whatisai.html#matchGame">AI Matching Game</a>
+          </li>
+          <li>
+            <a href="whatisai.html#AIorNot">AI or Not </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a
+          href="#algsAsOpsSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+        >
+          Algorithms as Opinions</a
+        >
+
+        <ul class="collapse lisst-unstyled" id="algsAsOpsSubmenu">
+          <li>
+            <a href="algsasops.html">Main Slides and Script</a>
+          </li>
+          <li>
+            <a href="algsasops.html#pbj">Best PB&J Algorithm</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a
+          href="#matrixSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+        >
+          Ethical Matrix</a
+        >
+
+        <ul class="collapse lisst-unstyled" id="matrixSubmenu">
+          <li>
+            <a href="ethicalMatrix.html">Main Slides and Script</a>
+          </li>
+          <li>
+            <a href="ethicalMatrix.html#pbjMatrix">PB&J Ethical Matrix</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a
+          href="#treesSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+        >
+          Decision Trees</a
+        >
+
+        <ul class="collapse lisst-unstyled" id="treesSubmenu">
+          <li>
+            <a href="decisionTrees.html">Main Slides and Script</a>
+          </li>
+          <li>
+            <a href="decisionTrees.html#pastaland">PastaLand</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a
+          href="#biasSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+        >
+          Investigating Bias</a
+        >
+
+        <ul class="collapse lisst-unstyled" id="biasSubmenu">
+          <li>
+            <a href="investBias.html">Main Slides and Script</a>
+          </li>
+          <li>
+            <a href="investBias.html#exploreBias">Exploring AI Bias</a>
+          </li>
+        </ul>
+      </li>
+      </ul>
+
+      <div class="sidebar-header">
+        <p>Unit 1: Supervised Machine Learning</p>
+      </div>
+      <ul class="lisst-unstyled components">
+        <li>
+          <a
+            href="#supervisedMLSubmenu"
+            data-toggle="collapse"
+            aria-expanded="false"
+            class="dropdown-toggle"
+          >
+            Introduction to Supervised Machine Learning</a
+          >
+  
+          <ul class="collapse lisst-unstyled" id="supervisedMLSubmenu">
+            <li>
+              <a href="supervisedML.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="supervisedML.html#tmActivities">Teachable Machine Activities</a>
+            </li>
+            <li>
+              <a href="supervisedML.html#tmProject">Teachable Machine Project</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#neuralNetworkSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        Neural Networks</a>
+  
+          <ul class="collapse lisst-unstyled" id="neuralNetworkSubmenu">
+            <li>
+              <a href="neuralNetworks.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="neuralNetworks.html#nnGame">Neural Network Game</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="#classVsGenSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        Classifying AI vs. Generating AI</a>
+  
+          <ul class="collapse lisst-unstyled" id="classVsGenSubmenu">
+            <li>
+              <a href="classVsGen.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="classVsGen.html#colorMatch">Color Matching Game</a>
+            </li>
+            <li>
+              <a href="classVsGen.html#classOrGen">Classifier or Generator</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="sidebar-header">
+        <p>Unit 2: GANs</p>
+      </div>
+      <ul class="lisst-unstyled components">
+        <li>
+          <a href="#gansSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        What are GANs?</a>
+  
+          <ul class="collapse lisst-unstyled" id="gansSubmenu">
+            <li>
+              <a href="whatAreGANs.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="whatAreGANs.html#exploreGans">Exploring GANs</a>
+            </li>
+            <li>
+              <a href="whatAreGANs.html#gansOrNot">GANs or Not</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="#howGansSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        Generator vs. Discriminator</a>
+  
+          <ul class="collapse lisst-unstyled" id="howGansSubmenu">
+            <li>
+              <a href="genVsDis.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="genVsDis.html#ganGame">GAN Game</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="#conseqSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        Unanticipated Consequences of Technology</a>
+  
+          <ul class="collapse lisst-unstyled" id="conseqSubmenu">
+            <li>
+              <a href="unanticipatedConseq.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="unanticipatedConseq.html#conseqGame">Unanticipated Consequences Activity</a>
+            </li>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="#artSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        AI Generated Art</a>
+  
+          <ul class="collapse lisst-unstyled" id="artSubmenu">
+            <li>
+              <a href="aiArt.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="aiArt.html#artOrNot">Art or Not</a>
+            </li>
+            <li>
+              <a href="aiArt.html#gansArt">GANs Art!</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="#deepfakesSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">
+        What are Deepfakes?</a>
+  
+          <ul class="collapse lisst-unstyled" id="deepfakesSubmenu">
+            <li>
+              <a href="deepfakes.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="deepfakes.html#faceArt">Face Art</a>
+            </li>
+            <li>
+              <a href="deepfakes.html#spotDeepfakes">Spotting Deepfakes</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <a href="misinfo.html">
+        Spread of Misinformation</a>
+        </li>
+  
+        <li>
+          <a href="generateStory.html">
+        Generate a Story</a>
+        </li>
+      </ul>
+
+      <div class="sidebar-header">
+        <p>Unit 3: AI + My Future</p>
+      </div>
+      <ul class="lisst-unstyled components">
+        <li>
+          <a href="environmentalImpacts.html">Environmental Impact of AI</a>
+        </li>
+        <li>
+          <a href="redesignYoutube.html">Redesign YouTube</a>
+        </li>
+        <li>
+          <a href="#careersSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle">Careers in AI</a>
+
+          <ul class="collapse lisst-unstyled" id="careersSubmenu">
+            <li>
+              <a href="careersInAI.html">Main Slides and Script</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#careerDaydream">Career Daydream</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#soundtrack">Soundtrack to My Life</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#inventory">Inventory of Me</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#seedsOfSTEMJobs">Planting the Seeds of STEM Jobs</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#futureJobs">AI's Impact on My Future Jobs</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#videos">People Working in AI-Related Fields</a>
+            </li>
+            <li>
+              <a href="careersInAI.html#roadmap">Personal Roadmap to My Dream Jobs</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    <div style="height: 100px;"></div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+
+<script>
+
+  $(document).ready(function () {
+    $("#sidebarCollapse").on("click", function () {
+      $("#sidebar").toggleClass("active");
+      // the following line will change the text after clicking the hamburger menu button!
+      document.getElementById("main").toggleClass("fullMain");
+    });
+  });
+</script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+</html>
