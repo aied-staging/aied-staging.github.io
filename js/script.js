@@ -882,6 +882,84 @@ jQuery(function ($) {
         }
     });
 
+        $("#team-three-slider-6").owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+            320: {
+                items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+        }
+    });
+
+
+    $("#team-three-slider-7").owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+            320: {
+                items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+        }
+    });
+
+
+    $("#team-three-slider-8").owlCarousel({
+        items: 4,
+        dots: false,
+        nav: false,
+        responsive: {
+            991: {
+                items: 4,
+            },
+            767: {
+                items: 2,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+            320: {
+                items: 1,
+                autoplayHoverPause:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                loop:true,
+            },
+        }
+    });
+
+
 
 
     
