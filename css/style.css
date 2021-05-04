@@ -119,6 +119,14 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
 }
 
+.gradient-bg-projects{
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #eae9e5 2%, #ffffff 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+}
+
 /* text-color */
 .main-color{color: #3264f5;}
 .alt-color{color: #7202bb;}
