@@ -54,7 +54,7 @@
     General
 ====================================== */
 
-body {font-family: 'Roboto', sans-serif; font-size: 15px;color: #2b2b2b;font-weight:300;line-height: 26px;letter-spacing: 0.5px;overflow-x: hidden;-webkit-font-smoothing: antialiased;}
+body {font-family: 'Roboto', sans-serif; font-size: 18px;color: #2b2b2b;font-weight:300;line-height: 26px;letter-spacing: 0.5px;overflow-x: hidden;-webkit-font-smoothing: antialiased;}
 p{margin-bottom: 0;color: #6d6d6d;}
 a {color:inherit;}
 br{line-height: 15px}
@@ -210,7 +210,7 @@ header.header-appear nav .logo .logo-dark, header.header-appear nav.header-dark 
 header.header-appear nav .logo .logo-dark, header.header-appear nav.header-light .logo .logo-dark {visibility: visible;  opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header.header-appear nav .logo .logo-light, header.header-appear nav.header-light .logo .logo-light {visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;}
 header a.logo {display: inline-block; vertical-align: middle;line-height: 0}
-header a.logo img {max-height:35px; max-width: 100px;vertical-align: sub;}
+header a.logo img {max-height:35px; max-width: 120px;vertical-align: sub;}
 
 
 /*header top bar*/
@@ -251,7 +251,7 @@ header a.logo img {max-height:35px; max-width: 100px;vertical-align: sub;}
     top: 0;
     z-index: 99;
     overflow: hidden;
-    height: 90px;
+    height: 100px;
     width: 100%;
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
@@ -279,7 +279,7 @@ header a.logo img {max-height:35px; max-width: 100px;vertical-align: sub;}
 
 
 .header-appear .navbar-top-default {
-    height: 70px;
+    height: 90px;
     position: fixed;
     z-index: 999;
     background: #ffffff;
