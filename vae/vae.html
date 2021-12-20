@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Introducing Variational Autoencoders to High School Students</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link href="./style.css" rel="stylesheet" type="text/css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-family: "verdana", sans-serif;
+    }
+</style>
+
+<body>
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:100%">
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+            <h2 class="" style="font-family:verdana;">Introducing Variational Autoencoders to High School Students</h2>
+            <h7 class="w3-opacity" style="font-family:verdana;">The 12th AAAI Symposium on Educational Advances in
+                Artificial Intelligence (EAAI'22)</h7>
+            <div class="w3-row my_padding_small">
+                <div class="w3-third">
+                    <h4 class=""> <a href="https://www.zhuoyuelyu.com/" target="_blank">Zhuoyue Lyu</a></h4>
+                    <h5 class="w3-opacity neg_margin">UToronto</h5>
+                </div>
+                <div class="w3-third">
+                    <h4 class=""><a href="https://safinahali.com/" target="_blank">Safinah Ali</a></h4>
+                    <h5 class="w3-opacity neg_margin">MIT Media Lab</h5>
+                </div>
+                <div class="w3-third">
+                    <h4><a href="https://www.media.mit.edu/people/cynthiab/overview/" target="_blank">Cynthia
+                            Breazeal</a></h4>
+                    <h5 class="w3-opacity neg_margin">MIT Media Lab</h5>
+                </div>
+            </div>
+            <div class="w3-row pos_margin">
+                <a href="https://www.media.mit.edu/groups/personal-robots/" target="_blank"><img src="./pic/PRG.png" style="height:60px"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.media.mit.edu/" target="_blank"><img src="./pic/media-lab.png"
+                        style="height:60px"></a>
+            </div>
+            <div class="w3-row my_padding">
+                <h3>Paper & Video Walkthrough</h3>
+                <p class="w3-justify">
+                    Generative Artificial Intelligence (AI) models are a compelling way to introduce K-12 students to AI
+                    education using an artistic medium. VAEs' latent-space structure and interpolation ability could
+                    effectively ground the interdisciplinary learning of
+                    AI, creative arts, and philosophy. Thus, we designed a lesson to teach high school students about
+                    VAEs.
+                </p>
+                <a href="https://arxiv.org/pdf/2111.07036.pdf" target="_blank"><img src="./pic/paper.png"
+                        class="w3-round w3-margin-bottom" style="width:100%"></a>
+                <div class="container">
+                    <iframe class="responsive-iframe w3-round" src="https://www.youtube.com/embed/b4CiVWHe4BI"></iframe>
+                </div>
+            </div>
+
+            <div class="w3-row my_padding">
+                <h3>Module 1: What are VAEs?</h3>
+                <p>
+                    This module aims to provide a basic introduction to VAEs. It starts with examples of creative arts
+                    by humans and AIs to trigger students' curiosity. Then, through Shadows and Plato's Cave, students
+                    begin to understand the essence behind VAEs. The module ends with a game to help students understand
+                    the roles of the encoder, decoder, and latent space.
+                </p>
+                <div class="container_slide">
+                    <iframe class="responsive-iframe w3-round"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vQeNtoJIwpJLbHTk1C9YlG8csZBpTiBmR9RDyqAUteBhJit1jct5hJIe5sMEclElGEAQVdAF7t0CReZ/embed?start=false&loop=true&delayms=3000"
+                        frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+                </div>
+                <h4 class="w3-opacity pos_margin">Shadow Matching Game</h4>
+                <h6 class="w3-opacity neg_margin"><a href="https://github.com/ZhuoyueLyu/VAE-web"
+                        target="_blank">[Source Code]</a></h6>
+                <div class="container neg_margin">
+                    <iframe class="responsive-iframe" id='webgl_iframe' frameborder="0" allow="autoplay; fullscreen; vr"
+                        allowfullscreen="" allowvr="" mozallowfullscreen="true"
+                        src="https://play.unity3dusercontent.com/webgl/b9b7cf2d-ef07-4418-b586-6b74d182b35c?screenshot=false&embedType=embed"
+                        width="810" height="640" onmousewheel="" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+
+            <div class="w3-row my_padding">
+                <h3>Module 2: Building a VAE</h3>
+                <p>
+                    This module dives deeper into the structure of VAEs and provides hands-on experience in training AI.
+                    The actual structure of the VAEs is revealed and touches upon the concepts of neural networks and
+                    distributions. Students then look at how interpolation is performed on the latent space and finally
+                    re-train their own VAEs using their custom digits on the notebook we designed.
+                </p>
+                <div class="container_slide">
+                    <iframe class="responsive-iframe w3-round"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vSFWrUuTC00UV-qFPZUFag3WzlAfsUUKDvVjdiyR0JaphO_GVchDfFIs_ROcu2ByJArTzpuV7QzE_mS/embed?start=false&loop=true&delayms=3000"
+                        frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+                </div>
+                <h4 class="w3-opacity pos_margin">Digits Interpolation Notebook</h4>
+                <h6 class="w3-opacity neg_margin">(Please click <a
+                        href="https://colab.research.google.com/gist/ZhuoyueLyu/5046225a9ae3675cf633c1df5f63be06/digits-interpolation-notebook-eaai.ipynb"
+                        target="_blank">Open in Colab</a> to see the UI feature)</h6>
+                <script src="https://gist.github.com/ZhuoyueLyu/5046225a9ae3675cf633c1df5f63be06.js"></script>
+
+            </div>
+
+            <div class="w3-row my_padding">
+                <h3>Module 3: Exploring VAEs</h3>
+                <p>
+                    This module consolidates students' understanding of VAEs. Students first explore tools built with
+                    modern VAE models and identify encoder, decoder, latent space. Then, students take a quiz to recall
+                    what they have learned. The lesson concludes with the roadmap of their learning and guides a artful
+                    and philosophical discussion surrounding VAEs.
+                </p>
+                <div class="w3-half my_padding_small">
+                    <h4 class="w3-opacity">
+                        MusicVAE
+                    </h4>
+                    <img src="./pic/musicvae.gif" style="height: 150px;">
+                    <div class="my_padding_small">
+                        <a href="https://g.co/melodymixer" target="_blank">Melody Mixer</a> &
+                        <a href="https://experiments.withgoogle.com/ai/beat-blender/view/" target="_blank">Beet
+                            Blender</a>
+                    </div>
+
+                </div>
+                <div class="w3-half my_padding_small">
+                    <h4 class="w3-opacity">
+                        SketchRNN
+                    </h4>
+                    <img src="./pic/sketchrnn.gif" style="height: 150px;">
+                    <div class="my_padding_small">
+                        <a href="https://magenta.tensorflow.org/assets/sketch_rnn_demo/interp.html"
+                            target="_blank">Interpolation</a> &
+                        <a href="https://magenta.tensorflow.org/assets/sketch_rnn_demo/multi_vae.html"
+                            target="_blank">Mimic
+                            Drawing</a>
+                    </div>
+                </div>
+                <div class="container_slide">
+                    <iframe class="responsive-iframe w3-round"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vRxnT3kO9uj55hqsjW80eUQ0hS-Jl6fw6EE4itTXA2iu3PL338mwNifeeFZU-ZQyUjNvUEwKB5Uj8xi/embed?start=false&loop=true&delayms=3000"
+                        frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+
+            <div class="my_padding">
+                <div class="w3-row">
+                    <h3>Assessment</h3>
+                    <p>
+                        We collected students' responses in the "Human or AI?" activity from Module 1, "Loss &
+                        Accuracy!"
+                        and "Our VAEs Journey" activities from Module 3. We also collected students' interpolation work
+                        in
+                        the Digits Interpolation Notebook and comments throughout the
+                        session.
+                    </p>
+                    <h4 class="w3-opacity pos_margin">Quiz</h4>
+                    <a href="https://create.kahoot.it/details/371711c6-9323-42be-abad-7429d4008349" target="_blank"><img
+                            src="./pic/kahoot.png" class="w3-round w3-margin-bottom" style="width:80%"></a>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <h4 class="w3-opacity pos_margin">Pre-assessment</h4>
+                        <div class="container">
+                            <iframe class="responsive-iframe"
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSf0J8CXczi04OrdLHhuvEudhEgzGu7mDpFTTLwYaVIkfcgBbQ/viewform?embedded=true"
+                                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+                    <div class="w3-half">
+                        <h4 class="w3-opacity pos_margin">Post Completion Survey</h4>
+                        <div class="container">
+                            <iframe class="responsive-iframe"
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSfk07-MMb-hru6v71xKUoWXSsbOM-ggS1AeHeY_NGzbgTkaFA/viewform?embedded=true"
+                                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row my_padding">
+                <h3>Citation</h3>
+                <h6 style="text-align: left;">MLA</h6>
+                <p class="w3-round" style="text-align: left; padding: 1rem; background: gainsboro;">
+                    Lyu, Zhuoyue, Safinah Ali, and Cynthia Breazeal. "Introducing Variational Autoencoders to High
+                    School Students.” <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 2022.
+                </p>
+                <h6 style="text-align: left;">BibTeX</h6>
+                <p class="w3-round" style="text-align: left; font-family:Monaco; padding: 1rem; background: gainsboro;">
+                    @inproceedings{lyu_Ali_Breazeal_2022,<br>
+                    &nbsp;title={Introducing Variational Autoencoders to High School Students},<br>
+                    &nbsp;journal={Proceedings of the AAAI Conference on Artificial Intelligence},<br>
+                    &nbsp;author={Lyu, Zhuoyue and Ali, Safinah and Breazeal, Cynthia},<br>
+                    &nbsp;year={2022}<br>
+                    }
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
